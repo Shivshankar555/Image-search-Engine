@@ -1,0 +1,27 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "\"project on image search engine\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [
+    "Project"
+  ],
+  "author": "Shiv Shankar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "font-awesome": "^4.7.0",
+    "react": "^17.0.2",
+    "react-debounce-input": "^3.2.4",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
